@@ -1,0 +1,157 @@
+﻿.notification-div {
+    /*background:#007278 !important;*//*rgba(0, 114, 120, 0.90);*/ /*#04091e;*/  /*black to ens green*/
+    background:#ededed !important; 
+    /*font-size: 12px;*/
+    padding: 8px;
+    /*max-height:38px;*/
+    /*height:38px;*/
+    /*min-height:38px;*/
+    height:100%;
+    width:100%;
+  
+}
+
+/*.notification-area{
+    width: 100%;
+    position:relative;
+    background-color:#007278;
+    border-radius: 16px;  
+    border:2px solid #007278;
+}*/
+
+/*.notification-bar {
+    width: 100%;
+    position:relative;
+    height:100%;
+    padding-top:10px;
+    background-color:rgba(255, 255,255,0.6);
+     border-radius: 16px;  
+      border:4px solid rgba(255, 255,255,0.9);
+}*/
+
+/*.notification-text {
+    font-weight: bold;
+    width: 80%;
+    position:relative;
+   
+    padding: 15px;
+    color:#4d4d4d;
+    font-size: 16px;
+    text-align: center;
+    padding:0;
+    border-radius: 16px;
+    
+}*/
+
+.scrollTxt {
+ /*height: 20px;*/	
+ /*overflow: hidden;
+ position: relative;*/
+}
+
+
+.scrollTxt p {
+ /*font-size: 3em;*/
+ /*color: limegreen;*/
+ position: relative;
+ /*width: 100%;
+ height: 100%;*/
+ margin: 0;
+ /*line-height: 50px;*/
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scrollTxt 15s linear infinite;
+ -webkit-animation: scrollTxt 15s linear infinite;
+ animation: scrollTxt 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scrollTxt {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scrollTxt {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scrollTxt {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+
+.scrollTxt p:hover {
+  animation-play-state: paused;
+}
+
+/*arabic scroll**/
+
+/*arabic scroll**/
+
+.arscrollTxt {
+ /*height: 20px;*/	
+ overflow: hidden;
+ position: relative;
+}
+
+
+
+
+.arscrollTxt p {
+ /*font-size: 3em;*/
+ /*color: limegreen;*/
+ position: relative;
+ /*width: 100%;
+ height: 100%;*/
+ margin: 0;
+ /*line-height: 50px;*/
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(-100%);
+ -webkit-transform:translateX(-100%);	
+ transform:translateX(-100%);
+ /* Apply animation to this element */	
+ -moz-animation: arscrollTxt 15s linear infinite;
+ -webkit-animation: arscrollTxt 15s linear infinite;
+ animation: arscrollTxt 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes arscrollTxt {
+ 
+ 0% { -moz-transform: translateX(-100%); }
+ 100%   { -moz-transform: translateX(100%); }
+}
+@-webkit-keyframes arscrollTxt {
+
+ 0% { -webkit-transform: translateX(-100%); }
+  100%   { -webkit-transform: translateX(100%); }
+}
+@keyframes arscrollTxt {
+ 
+ 0% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+ 100%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+}
+
+.arscrollTxt p:hover {
+  animation-play-state: paused;
+}
+

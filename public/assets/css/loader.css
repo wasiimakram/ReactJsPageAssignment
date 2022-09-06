@@ -1,0 +1,42 @@
+﻿.loader {
+	/*position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 50%;
+	height: 50%;
+    z-index: 9999;
+	*/
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+     /*/border-top: 16px solid #3498db;*/
+        border-top: 16px solid #a50344;
+  border-right: 16px solid #007278;
+  border-bottom: 16px solid #a50344;
+  border-left: 16px solid #007278;
+      width: 80px;
+      height: 120px;	
+	background: url('../../img/icon/loaderBounce.gif') 50% 50% no-repeat rgb(249,249,249);
+    -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+/*@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}*/
+
+.hideDiv{
+
+    display:none;
+}
+
+.showDiv{
+
+    display:block;
+}
+
+ 

@@ -1,0 +1,390 @@
+﻿.outercirdiv {
+    height: 170px;
+    width: 170px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 10px auto;
+    background-color: transparent;
+}
+
+.outerBottomRedBorder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+    border-width: 4px;
+    border-style: solid;
+    /*border-color: rgb(225, 37, 27) transparent rgb(225, 37, 27) rgb(225, 37, 27);*/
+        border-color: rgb(255,255,255) transparent rgb(255,255,255) rgb(255,255,255);
+    border-image: initial;
+    border-left: 4px solid rgb(255,255,255);
+    border-top: 4px solid rgb(255,255,255);
+    border-bottom: 4px solid rgb(255,255,255);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.innerTopGrayBorder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotate(135deg);
+    border-width: 2px;
+    border-style: solid;
+    /*border-color: rgb(170, 6, 72) transparent transparent rgb(170, 6, 72);*/
+    border-color: rgb(128, 128, 128) transparent transparent rgb(128, 128, 128);
+    border-image: initial;
+    border-left: 2px solid  rgb(128, 128, 128); /*rgb(170, 6, 72);*/
+    border-top: 2px solid rgb(128, 128, 128);/*rgb(170, 6, 72);*/
+    border-radius: 50%;
+}
+
+.outerTopGreenBorder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(135deg);
+    border-width: 4px;
+    border-style: solid;
+    /*border-color: rgb(0, 121, 52) transparent rgb(0, 121, 52) rgb(0, 121, 52);*/
+    border-color: rgb(255,255,255) transparent rgb(255,255,255) rgb(255,255,255);
+    border-image: initial;
+    border-left: 4px solid rgb(255,255,255);
+    border-top: 4px solid rgb(255,255,255);
+    border-bottom: 4px solid rgb(255,255,255);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.innerBottomGrayBorder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotate(135deg);
+    border-width: 2px;
+    border-style: solid;
+    /*border-color: rgb(0,114,120) transparent transparent rgb(0,114,120);*/
+     border-color: rgb(128, 128, 128) transparent transparent rgb(128, 128, 128);
+    border-image: initial;
+    border-left: 2px solid  rgb(128, 128, 128); /*rgb(0,114,120);*/
+    border-top: 2px solid rgb(128, 128, 128); /*rgb(0,114,120);*/
+    border-radius: 50%;
+}
+
+.circleInnerText {
+line-height: 45px;
+text-align:center;
+ display: block;
+ font-size: 22px;
+ color:rgb(255,255,255);
+}
+
+.circleInnerSMText {
+line-height: 45px;
+text-align:center;
+ display: block;
+ font-size: 12px;
+ color:rgb(255,255,255);
+}
+
+.ensGreen {
+    color: #007278!important;
+
+}
+
+.ensTransperant {
+   
+    background-color:RGBA(255,255,255,0.80);
+}
+
+
+  .count-title {
+            font-size: 40px;
+            font-weight: normal;
+            margin-top: 10px;
+            margin-bottom: 0;
+            text-align: center;
+            color:white !important;
+        }
+  .count-smtitle {
+            font-size: 20px;
+            font-weight: normal;
+            margin-top: 10px;
+            margin-bottom: 0;
+            text-align: center;
+            color:white !important;
+        }
+
+.ensRed {
+   color: #a50344!important;
+}
+
+.ensRedTrans {
+   color: rgba(160,6,68,0.7) !important
+}
+
+.ensGreenTrans {
+    color: rgba(0,114,120,0.7) !important;
+}
+.ensRedTransparent {
+    background-color: rgba(160,6,68,0.7) !important;
+}
+
+.divider {
+    height: 2px;
+    width: 50%;
+    background-color: #a50344; /*rgb(128, 128, 128);*/
+    margin: 5px;
+}
+
+/*testing*/
+
+.innerTopwhiteBorder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotate(135deg);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255,255,255) transparent transparent rgb(255,255,255);
+    border-image: initial;
+    border-left: 2px solid  rgb(255,255,255);
+    border-top: 2px solid rgb(255,255,255);
+    border-radius: 50%;
+}
+
+.innerBottomwhiteBorder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotate(135deg);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255,255,255) transparent transparent rgb(255,255,255);
+    border-image: initial;
+    border-left: 2px solid  rgb(255,255,255); /*rgb(0,114,120);*/
+    border-top: 2px solid rgb(255,255,255); /*rgb(0,114,120);*/
+    border-radius: 50%;
+}
+
+.outerBottomEnsGreenBorder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(0,114,120) transparent rgb(0,114,120) rgb(0,114,120);
+    border-image: initial;
+    border-left: 4px solid rgb(0,114,120); 
+    border-top: 4px solid rgb(0,114,120) ;
+    border-bottom: 4px solid rgb(0,114,120);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.outerBottomEnsRedBorder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+    border-width: 4px;
+    border-style: solid;
+    /*border-color: rgb(225, 37, 27) transparent rgb(225, 37, 27) rgb(225, 37, 27);*/
+        border-color: rgb(160,6,68) transparent rgb(160,6,68) rgb(160,6,68);
+    border-image: initial;
+    border-left: 4px solid rgb(160,6,68);
+    border-top: 4px solid rgb(160,6,68);
+    border-bottom: 4px solid rgb(160,6,68);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+
+
+/*.innerTopEnsRedBorder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotate(135deg);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255,255,255) transparent transparent rgb(255,255,255);
+    border-image: initial;
+    border-left: 2px solid  rgb(255,255,255);
+    border-top: 2px solid rgb(255,255,255);
+    border-radius: 50%;
+}*/
+
+.outerTopEnsRedBorder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(135deg);
+    border-width: 4px;
+    border-style: solid;
+    /*border-color: rgb(0, 121, 52) transparent rgb(0, 121, 52) rgb(0, 121, 52);*/
+    border-color: rgba(160,6,68,0.7) transparent rgba(160,6,68,0.85) rgba(160,6,68,0.85);
+    border-image: initial;
+    border-left: 4px solid rgba(160,6,68,0.85);
+    border-top: 4px solid rgba(160,6,68,0.85);
+    border-bottom: 4px solid rgba(160,6,68,0.85);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.outerTopEnsGreenBorder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(135deg);
+    border-width: 4px;
+    border-style: solid;
+    /*border-color: rgb(0, 121, 52) transparent rgb(0, 121, 52) rgb(0, 121, 52);*/
+    border-color:  rgb(0,114,120) transparent  rgb(0,114,120)  rgb(0,114,120);
+    border-image: initial;
+    border-left: 4px solid  rgb(0,114,120);
+    border-top: 4px solid  rgb(0,114,120);
+    border-bottom: 4px solid  rgb(0,114,120);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+/* for circle  with shadow */
+.circleShadow
+{
+	display: flex;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	margin: 10px auto;
+	width:170px;
+	height:170px;
+	border: solid 2px rgb(128, 128, 128);
+	background-color:rgba(255,255,255,0.3);
+	/*box-shadow:10px -10px   rgba(128, 128, 128,1.0);*/
+    box-shadow:7px -7px   rgba(0, 0, 0,0.2);
+	border-radius:100px;
+}
+
+/* for circle  with shadow */
+.circleShadowESS
+{
+	display: flex;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	margin: 10px auto;
+	width:120px;
+	height:120px;
+	border: solid 2px rgb(128, 128, 128);
+	/*background-color:rgba(255,255,255,0.3);*/
+    background-color: rgb(0,114,120) !important;
+	/*box-shadow:10px -10px   rgba(128, 128, 128,1.0);*/
+    box-shadow:7px -7px   rgba(0, 0, 0,0.2);
+	border-radius:80px;
+
+}
+
+
+.circleGreenShadow
+{
+	display: flex;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	margin: 10px auto;
+	width:170px;
+	height:170px;
+	border: solid 1px rgb(0,114,120);
+	background-color:rgba(255,255,255,0.3);
+	box-shadow: 10px -10px  rgba(0,114,120,0.6);
+	border-radius:100px;
+}
+
+.circleRedShadow
+{
+	display: flex;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	margin: 10px auto;
+	width:170px;
+	height:170px;
+	border: solid 1px rgb(160,6,68);
+	background-color:rgba(255,255,255,0.3);
+	box-shadow: 10px -10px  rgba(160,6,68,0.7);
+	border-radius:100px;
+}
+
+.circleShadow:hover{
+    background-color: rgba(160,6,68,0.95) !important;
+    /*box-shadow: 10px -10px  rgba(0,0,0,0.6);
+    border: solid 1px #555;*/
+    border: solid 4px rgb(0,114,120);
+    box-shadow:7px -7px   rgba(0, 0, 0,0.2);
+    color:white!important;
+    
+}
+
+.circleShadow:hover .timer {
+     color:white!important;
+
+}
+.circleShadow:hover .circleInnerText{
+     color:white!important;
+}
+
+.circleIconText {
+     color:#404040;
+}    
+
+.circleShadow:hover .circleInnerText .circleIconText{
+     color:white!important;
+}
+
+
+.circleText{
+    color:#404040 !important;
+}
+
+.circlesmText{
+    color:rgb(255,255,255) !important;
+}
+/*for circle  with shadow*/
+
+
+.circleShadowESS:hover{
+    background-color: rgba(160,6,68,0.95) !important;
+    /*box-shadow: 10px -10px  rgba(0,0,0,0.6);
+    border: solid 1px #555;*/
+    border: solid 4px rgb(0,114,120);
+    box-shadow:7px -7px   rgba(0, 0, 0,0.2);
+    color:white!important;
+    
+}
+
+.circleShadowESS:hover .timer {
+     color:white!important;
+
+}
+.circleShadowESS:hover .circleInnersmText{
+     color:white!important;
+}
+
+
+
+

@@ -1,0 +1,320 @@
+.ceremony-timer {
+    box-sizing: border-box;
+    background-image: url('img/countdown_bg.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    }
+    .ceremony-timer .flipdown {
+    margin: auto;
+    }
+    .ceremony-timer h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    }
+    .ceremony-timer p {
+    text-align: center;
+    padding-top: 55px;
+    margin-bottom: 20px;
+    font-size:18px;
+    color:#4f6767;
+    }
+    .ceremony-timer h2 {
+    text-align: center;
+    font-size:19px;
+    color:#4f6767;
+    margin-top: 20px;
+    margin-bottom:20px;
+    }
+    .ceremony-timer h3 {
+    text-align: center;
+    margin-top: 0;
+    color:#8e606e;
+    }
+    .ceremony-timer .buttons {
+    width: 100%;
+    height: 50px;
+    margin: 30px auto 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    .rotor-leaf-rear {
+    background-color:#8E2344 !important;
+    }
+    .rotor-leaf-front {
+    background-color:#007272 !important;
+    }
+    .rotor-top {
+    background-color:#007272 !important;
+    }
+    .rotor-bottom {
+    background-color:#8E2344 !important;
+    }
+    .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):before, .flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):after {
+    background-color:#8E2344 !important;
+    }
+    .flipdown.flipdown__theme-dark .rotor-group-heading:before {
+    color:#007272 !important;
+    }
+    @media(max-width: 550px) {
+    .ceremony-timer {
+    width: 100%;
+    height: 362px;
+    }
+    .ceremony-timer p {
+    padding-top:20px;
+    margin-bottom: 15px;
+    padding-left:10px;
+    padding-right: 10px;
+    font-size:12px;
+    }
+    .ceremony-timer h2 {
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size:13px;
+    }
+    .ceremony-timer h3 {
+    margin-bottom: 10px;
+    font-size:14px;
+    }
+    .ceremony-timer  p,
+    .ceremony-timer  a {
+    float: none;
+    margin: 0 auto;
+    }
+    .ceremony-timer  a {
+    display: inline-block;
+    }
+    }
+ 
+ /* Counter Css Start  */
+ 
+    .bg-counters {
+    /*background: url(../images/counter-bg.jpg) no-repeat center center;*/
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*background-color:#007272;*/
+    /*background-color:#a50643;*/
+    }
+    .counters .count_nums {
+    font-size: 6.25rem;
+    line-height: 5rem;
+    }
+    .counters .count_nums,
+    .counters i {
+    vertical-align: middle;
+    font-size:3.25rem;
+    }
+    .whitecolor {
+    color: #ffffff;
+    }
+    .font-light {
+    font-weight: 300;
+    }
+ 
+ /* Counter Css End  */
+ /* social media bar  */
+ 
+    .icon-bar1 {
+    position: fixed;
+    direction:ltr !important;
+    top: 75%;
+    left:0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:10000;
+    background-color:#007078;
+    }
+    .icon-bar1 ul {
+    padding:5px;
+    }
+    .icon-bar1 a {
+    display: block;
+    text-align: center;
+    padding: 7px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 14px;
+    }
+    /*.icon-bar1 a:hover {
+    background-color: #000;
+    }*/
+    .icon-bar1 a.f:hover {
+    background: #3B5998;
+    color: white;
+    border-radius:0.65em;
+    }
+    .icon-bar1 a.t:hover {
+    background: #55ACEE;
+    color: white;
+    border-radius:0.65em;
+    }
+    .icon-bar1 a.g:hover {
+    background: #3B5998;
+    color: white;
+    border-radius:0.65em;
+    }
+    .icon-bar1 a.l:hover {
+    background: #007bb5;
+    color: white;
+    border-radius:0.65em;
+    }
+    .icon-bar1 a.y:hover {
+    background: #bb0000;
+    color: white;
+    border-radius:0.65em;
+    }
+    .icon-bar1 a.te:hover {
+    background: #22a1dd;
+    color: white;
+    border-radius:0.65em;
+    }
+    .icon-bar1 a.i:hover {
+    background: #d71717;
+    color: white;
+    border-radius:0.65em;
+    }
+    .telegram {
+    background: #22a1dd;
+    color: white;
+    }
+    .instagram {
+    background: #d71717;
+    color: white;
+    }
+ 
+ /*  social media bar ends */
+ 
+    .icon-bar {
+    position: fixed;
+    direction:ltr !important;
+    top: 25%;
+    right:0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index:10000;
+    }
+    .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 7px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 14px;
+    }
+    .icon-bar a:hover {
+    background-color: #000;
+    }
+    .facebook {
+    background: #3B5998;
+    color: white;
+    }
+    .enscolor {
+    background: #007078;
+    color: white;
+    }
+    .twitter {
+    background: #55ACEE;
+    color: white;
+    }
+    .google {
+    background: #dd4b39;
+    color: white;
+    }
+    .linkedin {
+    background: #007bb5;
+    color: white;
+    }
+    .youtube {
+    background: #bb0000;
+    color: white;
+    }
+    .content {
+    margin-left: 75px;
+    font-size: 30px;
+    }
+    #MyPopup {
+    background-image: url('DubaiCampus/images/Coming%20Soon.jpg');
+    background-size: 100% 100%;
+    z-index: 5050 !important;
+    width: 300px;
+    height: 250px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -160px; /* negative half of width above */
+    margin-top: -160px;
+    }
+    #MyPopup1 {
+    /*background-image: url('/img/Mobile_App_Popup.png');*/
+    /*background-image: url('/img/registration_popup_EN.jpg');*/
+    /*//background-image:url('/img/popup-Canteen-EN.jpg');*/
+    background-image:url('img/popup-DXB-discount-en.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    z-index:5050 !important;
+    width: 250px;
+    height: 200px;
+    position:fixed; 
+    bottom:0px;
+    right:0px;
+    margin:0px;
+    }
+    .textDiv {
+    text-align:center;
+    margin:30px 0px;
+    /*text-shadow:1px 1px white;*/
+    text-shadow:1px 1px #808080;
+    font-weight:bold;
+    }
+    .close
+    {
+    float:right !important;
+    }
+    .textDiv p {
+    font-size:14px;
+    }
+    .textDiv a {
+    /*color:white !important;*/
+    color:#007882 !important;
+    }
+    .textDiv img {
+    width:100px;
+    }
+    @media only screen and (max-width: 700px){
+    #MyPopup {
+    width: 250px;
+    height: 220px;
+    margin-left: -123px;
+    margin-top: -118px;
+    }
+    #MyPopup1 {
+    width: 220px;
+    height: 190px;
+    margin:0px;
+    }
+    .textDiv img {
+    width:90px;
+    }
+    }
+
+.topRegNum1{color: #4d4d4d !important;}
+.topRegNum2{font-size: 20px; padding-bottom: 10px;}
+.topRegNum3{font-size: 14px; padding: 8px !important;}
+.topHeaderPut{float: left;}
+.topHeaderPut2{float: right;}
+.topButt2{float: right;}
+.imgabc{height:22px;width:35px;}
+.imgxyz{height:198px;}
+.img2ss{height:170px !important}
+.img44ss{height:170px !important}
+.imgxyz2{height:170px !important}
+.img33sss{height:170px !important}
